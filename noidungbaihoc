@@ -1,0 +1,44 @@
+npm init: khởi tạo npm
+npm install express: cài thư viện expressJS
+
+import express
+tạo app
+tạo cổng
+tạo đường dẫn
+
+res.send(): phản hồi text/thẻ html
+res.json(): phản hồi data dạng json/js object
+res.sendFile(): phản hồi về 1 file, đường dẫn tuyệt đối
+
+query: request gửi kèm về server trên url
+       ?key=value&key2=value2
+
+params: request gửi kèm trên url
+        sửa đường dẫn để đặt key
+        đã đặt là buộc phải dùng params
+
+----------------------------------------------
+
+router
+
+postman
+
+restFul API
+các API phân biệt với nhau bởi method và url
+get: lấy data
+     lấy giao diện
+     data được gửi từ server sẽ được cho thẳng lên giao diện
+
+post: thêm mới data vào database
+      làm thêm một số chức năng khác
+      gửi ngầm data không cho lên server
+      
+put: update data
+     gửi ngầm data không cho lên server
+
+delete: xóa data
+        gửi ngầm data không cho lên server
+middleWare
+
+----------------------------------------------
+
